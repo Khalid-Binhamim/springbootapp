@@ -1,0 +1,43 @@
+/* styles/header.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #E0F7FA; /* Light blue background */
+    color: #0277BD; /* Darker blue text color */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Centered text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets from list */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Margin between links */
+}
+
+nav ul li a {
+    color: #0277BD; /* Darker blue link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold font */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #01579B; /* Even darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+hr {
+    margin: 0; /* Remove default margin */
+    border: 0; /* Remove default border */
+    height: 1px; /* Set height */
+    background: #B0BEC5; /* Light gray color for the line */
+}
